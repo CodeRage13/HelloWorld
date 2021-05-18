@@ -19,7 +19,7 @@ if (person.died == null) {isDead = "not "} else {""}
 let story = person.name + " is " + person.age + " " + year + " old, and is " + isDead + "dead."
 if (person.died != null) {story = story + " (Death in: " + person.died + ")"}
 console.log(story)
-document.getElementById("welcome").innerText = "Welcome to Programming " + person.name + "!"
+document.getElementById("welcome").innerText = "Welcome to Programming " + person.name + "!\n You made this!"
 
 let fruits = ["apples", "oranges"]
 console.log("Comparing " + fruits[0] + " to " + fruits[1] + ", is like comparing apples to oranges!\nHow ironic!")
