@@ -1,0 +1,24 @@
+div#hello {
+  border:black solid 2px;
+  width: 15pc;height: 10pc;
+  color:blue;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  }
+p#world {
+  color: green;
+  text-align:end;
+  font-weight: bolder;
+  font-size: x-large;
+  }
+  p#note {
+    text-align: start;
+    font-size: small;
+    font-weight: bold;    
+  }
+  .emphasis {
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+  }
