@@ -1,6 +1,10 @@
+html {width: 100vw; height: 100vh}
+body {width: 100vw; height: 100vh}
 div#hello {
   border:black solid 2px;
-  width: 15pc;height: 10pc;
+  min-width: 21vw;
+  min-height: 40vh;
+  width: 25%;height: 40%;
   color:blue;
   text-align: center;
   font-weight: bold;
